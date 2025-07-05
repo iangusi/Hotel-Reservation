@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="81b592a5-210e-4d97-9d1d-bcd544760ee0" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Record" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2uaTeL2thfKtwGdbXWUOgA69D3Y" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.HotelReservationApplication.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Notification.DisplayName-DoNotAsk-DatabaseConfigFileWatcher.found&quot;: &quot;Database connection parameters found&quot;,
+    &quot;Notification.DoNotAsk-DatabaseConfigFileWatcher.found&quot;: &quot;true&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;Spring Boot.HotelReservationApplication.executor&quot;: &quot;Run&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/marse/OneDrive/Escritorio/escuela/UNIVERSIDAD/TDAW/Proyecto/back_end_hotel_reservation/Hotel_Reservation/src/main/java/TDAW/Hotel_Reservation/entity/user&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;settings.sync&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="TDAW.Hotel_Reservation.dto.room" />
+      <recent name="TDAW.Hotel_Reservation.entity.room" />
+      <recent name="TDAW.Hotel_Reservation.entity.hotel" />
+      <recent name="TDAW.Hotel_Reservation.entity.reservation" />
+      <recent name="TDAW.Hotel_Reservation.entity.user" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\marse\OneDrive\Escritorio\escuela\UNIVERSIDAD\TDAW\Proyecto\back_end_hotel_reservation\Hotel_Reservation\src\main\java\TDAW\Hotel_Reservation\entity\user" />
+      <recent name="C:\Users\marse\OneDrive\Escritorio\escuela\UNIVERSIDAD\TDAW\Proyecto\back_end_hotel_reservation\Hotel_Reservation\src\main\java\TDAW\Hotel_Reservation\entity\room" />
+      <recent name="C:\Users\marse\OneDrive\Escritorio\escuela\UNIVERSIDAD\TDAW\Proyecto\back_end_hotel_reservation\Hotel_Reservation\src\main\java\TDAW\Hotel_Reservation\entity\review" />
+      <recent name="C:\Users\marse\OneDrive\Escritorio\escuela\UNIVERSIDAD\TDAW\Proyecto\back_end_hotel_reservation\Hotel_Reservation\src\main\java\TDAW\Hotel_Reservation\entity\reservation" />
+      <recent name="C:\Users\marse\OneDrive\Escritorio\escuela\UNIVERSIDAD\TDAW\Proyecto\back_end_hotel_reservation\Hotel_Reservation\src\main\java\TDAW\Hotel_Reservation\entity\promotion" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="TDAW.Hotel_Reservation.service.clases" />
+      <recent name="TDAW.Hotel_Reservation.entity.room.dto" />
+      <recent name="TDAW.Hotel_Reservation.entity.hotel.dto" />
+      <recent name="TDAW.Hotel_Reservation.repository" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="TDAW.Hotel_Reservation.service" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="HotelReservationApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="Hotel_Reservation" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="TDAW.Hotel_Reservation.HotelReservationApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="81b592a5-210e-4d97-9d1d-bcd544760ee0" name="Changes" comment="" />
+      <created>1742485779631</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1742485779631</updated>
+      <workItem from="1751234794240" duration="3119000" />
+      <workItem from="1751244582852" duration="22820000" />
+      <workItem from="1751273392340" duration="8678000" />
+      <workItem from="1751291611440" duration="6980000" />
+      <workItem from="1751312240690" duration="2379000" />
+      <workItem from="1751402616852" duration="619000" />
+      <workItem from="1751425059733" duration="3307000" />
+      <workItem from="1751469153323" duration="1233000" />
+      <workItem from="1751480516001" duration="887000" />
+      <workItem from="1751493409713" duration="613000" />
+      <workItem from="1751499182192" duration="1937000" />
+      <workItem from="1751556428223" duration="1010000" />
+      <workItem from="1751557796442" duration="10127000" />
+      <workItem from="1751597429027" duration="614000" />
+      <workItem from="1751647557119" duration="1900000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
