@@ -1,4 +1,4 @@
-package TDAW.Hotel_Reservation.controller;
+package tdaw.hotel_reservation.controller;
 
 import TDAW.Hotel_Reservation.dto.room.AmenityDTO;
 import TDAW.Hotel_Reservation.entity.room.Amenity;
@@ -22,38 +22,38 @@ public class AmenityController {
 
     @PostMapping("/create")
     @ResponseStatus(HttpStatus.CREATED)
-    private ResponseEntity<AmenityDTO> Create(@RequestBody @Valid AmenityDTO amenityDTO){
+    public ResponseEntity<AmenityDTO> create(@RequestBody @Valid AmenityDTO amenityDTO){
         Amenity amenity = amenityService.create(amenityDTO);
-        URI uri = URI.create("http://localhost:8090/amenity/search/"+amenity.getAmenityId());
+        URI uri = URI.create("http://localhost:8090/amenity/search/" + amenity.getAmenityId());
         return ResponseEntity.created(uri).body(amenityService.map(amenity));
     }
 
     @GetMapping("/search/all")
-    private ResponseEntity<?> FindAll(@PageableDefault(sort = {"name"}) Pageable pageable){
+    public ResponseEntity<?> findAll(@PageableDefault(sort = {"name"}) Pageable pageable){
         return ResponseEntity.ok(amenityService.findAll(pageable));
     }
 
     @GetMapping("/search/{id}")
-    private ResponseEntity<AmenityDTO> FindById(@PathVariable Long id){
+    public ResponseEntity<AmenityDTO> findById(@PathVariable Long id){
         Amenity amenity = amenityService.findById(id);
         return ResponseEntity.ok(amenityService.map(amenity));
     }
 
     @GetMapping("/search")
-    private ResponseEntity<AmenityDTO> FindAllByName(@RequestParam String name){
+    public ResponseEntity<AmenityDTO> findAllByName(@RequestParam String name){
         Amenity amenity = amenityService.findByName(name);
         return ResponseEntity.ok(amenityService.map(amenity));
     }
 
     @PutMapping("/update")
-    private ResponseEntity<AmenityDTO> Update(@RequestBody AmenityDTO amenityDTO){
+    public ResponseEntity<AmenityDTO> update(@RequestBody @Valid AmenityDTO amenityDTO){
         Amenity amenity = amenityService.update(amenityDTO);
         return ResponseEntity.ok(amenityService.map(amenity));
     }
 
     @DeleteMapping("/delete/{id}")
     @ResponseStatus(HttpStatus.NO_CONTENT)
-    private void Delete(@PathVariable Long id){
+    public void delete(@PathVariable Long id){
         amenityService.delete(id);
     }
 
